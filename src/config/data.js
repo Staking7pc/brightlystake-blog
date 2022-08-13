@@ -2,7 +2,7 @@ export const blogList = [
   {
     id: '/blog/staking-with-axelar',
     title: 'Staking in Axelar ',
-    category: 'Staking',
+    category:  'Axelar',
     subCategory: ['Axelar', 'Staking', 'APY Calculation'],
     description1:"Validator Commission - The minumum is 5% and the maximum could be anything the validator desires. For example if current is 5% and max is 20% you might have to accept the risk the validator can raise it to the max value anytime they wish.",
     description2:"Base Inflation - Axelar has a base inflation of 8% which can go upto 10% depending upon the staked amount. This includes the tendermint inflation 5% and Multisig participation 5%",
