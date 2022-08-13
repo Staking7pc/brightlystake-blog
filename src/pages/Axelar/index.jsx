@@ -56,11 +56,14 @@
                 <label>Assuming validator supports 7 chains and base inflation is 8% </label>
 
                 <br></br>
-                <label>Total staked is 100 million : {(name==''?'NA':(name/100000000)*(1000000000 * 0.15))} AXL per year or {( (((name/100000000)*(1000000000 * 0.15))/name) * 100)} % APY</label>
                 <br></br>
-                <label>Total staked is 50 million : {(name==''?'NA':(name/50000000)*(1000000000 * 0.15))} AXL per year or {( (((name/50000000)*(1000000000 * 0.15))/name) * 100)} % APY</label>
+                <label className='calc'>Total staked is 100 million : {(name==''?'NA':(name/100000000)*(1000000000 * 0.15))} AXL per year or {( (((name/100000000)*(1000000000 * 0.15))/name) * 100)} % APY</label>
                 <br></br>
-                <label>Total staked is 25 million : {(name==''?'NA':(name/25000000)*(1000000000 * 0.15))} AXL per year or {( (((name/25000000)*(1000000000 * 0.15))/name) * 100)} % APY</label>
+                <br></br>
+                <label className='calc'>Total staked is 50 million : {(name==''?'NA':(name/50000000)*(1000000000 * 0.15))} AXL per year or {( (((name/50000000)*(1000000000 * 0.15))/name) * 100)} % APY</label>
+                <br></br>
+                <br></br>
+                <label className='calc'>Total staked is 25 million : {(name==''?'NA':(name/25000000)*(1000000000 * 0.15))} AXL per year or {( (((name/25000000)*(1000000000 * 0.15))/name) * 100)} % APY</label>
                 <br></br> 
               </label>
             </form>
